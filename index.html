@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vrushank Mali | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TH2JE97J9F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-TH2JE97J9F');
+    </script>
+</head>
+<body>
+    <!-- Terminal structure -->
+    <div class="terminal">
+        <div class="output" id="output"></div>
+        <div class="input-line">
+            <span class="prompt">vrushankmali@portfolio:~$</span>
+            <input type="text" id="terminalInput" class="terminal-input" autofocus>
+        </div>
+        
+        <!-- Loading screen inside the terminal -->
+        <div class="matrix-loading" style="display: none;"> <!-- Initially hidden -->
+            <div class="loading-text">
+                Loading
+                <span class="dot">.</span>
+                <span class="dot">.</span>
+                <span class="dot">.</span>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
