@@ -90,12 +90,13 @@ html, body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     width: 100%;
-    caret-color: #00ffee; /* Caret color in input */
+    direction: ltr;     /* Force left-to-right direction */
+    caret-color: #00ffee;       /* Caret color in input */
     text-shadow: 
-        0 0 5px #00ffee,  /* First shadow layer */
-        0 0 10px #00ffee, /* Second shadow layer for increased glow */
-        0 0 15px #00ffee, /* Third shadow layer for even more glow */
-        0 0 20px rgba(0, 255, 255, 0.5); /* Optional: Use rgba for a softer outer glow */
+        0 0 5px #00ffee,        /* First shadow layer */
+        0 0 10px #00ffee,       /* Second shadow layer for increased glow */
+        0 0 15px #00ffee,       /* Third shadow layer for even more glow */
+        0 0 20px rgba(0, 255, 255, 0.5);        /* Optional: Use rgba for a softer outer glow */
 }
 
 /* Blinking cursor */
