@@ -90,7 +90,7 @@ html, body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     width: 100%;
-    direction: ltr;     /* Force left-to-right direction */
+    direction:rtl;     /* Force left-to-right direction */
     caret-color: #00ffee;       /* Caret color in input */
     text-shadow: 
         0 0 5px #00ffee,        /* First shadow layer */
