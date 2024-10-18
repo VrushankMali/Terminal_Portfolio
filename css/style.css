@@ -23,7 +23,7 @@ body {
 
 /* Hide scrollbars for html and body */
 html, body {
-    overflow: hidden; /* Prevent body scrollbars */
+    overflow: auto; /* Prevent body scrollbars */
 }
 
 /* Terminal styling */
