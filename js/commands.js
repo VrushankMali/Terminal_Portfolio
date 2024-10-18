@@ -102,16 +102,16 @@ const socials = [
 
 const help = [
     "<br>",
-    '<span class="command glow">whois</span><br>             <span class="description yellow">Who is Vrushank Mali?</span><br><br>',
-    '<span class="command glow">education</span><br>         <span class="description yellow">Am I literate?</span><br><br>',
-    '<span class="command glow">skills</span><br>            <span class="description yellow">How literate am I?</span><br><br>',
-    '<span class="command glow">projects</span><br>          <span class="description yellow">My coding projects</span><br><br>',
-    '<span class="command glow">achievements</span><br>      <span class="description yellow">Let me show you my gains</span><br><br>',
-    '<span class="command glow">experience</span><br>        <span class="description yellow">My work history</span><br><br>',
-    '<span class="command glow">contact</span><br>           <span class="description yellow">Please don\'t contact me</span><br><br>',
-    '<span class="command glow">socials</span><br>           <span class="description yellow">My social networks</span><br><br>',
-    '<span class="command glow">help</span><br>              <span class="description yellow">You obviously already know what this does</span><br><br>',
-    '<span class="command glow">clear</span><br>             <span class="description yellow">Clear terminal</span><br><br>',
+    '<span class="command glow">whois</span>             <span class="description yellow">Who is Vrushank Mali?</span><br>',
+    '<span class="command glow">education</span>         <span class="description yellow">Am I literate?</span><br>',
+    '<span class="command glow">skills</span>            <span class="description yellow">How literate am I?</span><br>',
+    '<span class="command glow">projects</span>          <span class="description yellow">My coding projects</span><br>',
+    '<span class="command glow">achievements</span>      <span class="description yellow">Let me show you my gains</span><br>',
+    '<span class="command glow">experience</span>        <span class="description yellow">My work history</span><br>',
+    '<span class="command glow">contact</span>           <span class="description yellow">Please don\'t contact me</span><br>',
+    '<span class="command glow">socials</span>           <span class="description yellow">My social networks</span><br>',
+    '<span class="command glow">help</span>              <span class="description yellow">You obviously already know what this does</span><br>',
+    '<span class="command glow">clear</span>             <span class="description yellow">Clear terminal</span><br>',
     "<br>"
 ];
 
