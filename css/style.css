@@ -23,12 +23,12 @@ body {
 
 /* Hide scrollbars for html and body */
 html, body {
-    overflow: auto; /* Prevent body scrollbars */
+    overflow: hidden; /* Prevent body scrollbars */
 }
 
 /* Terminal styling */
 .terminal {
-    width: 80%;
+    width: 90%;
     max-width: 1300px;
     height: 80vh;
     background-color: #000; /* Terminal background */
@@ -56,6 +56,7 @@ html, body {
 .output {
     flex-grow: 1;
     overflow-y: auto; /* Scrollable content */
+    overflow-x: auto;
 }
 
 /* Also hide scrollbars on the output element */
