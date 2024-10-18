@@ -56,7 +56,6 @@ html, body {
 .output {
     flex-grow: 1;
     overflow-y: auto; /* Scrollable content */
-    padding: 10%;
 }
 
 /* Also hide scrollbars on the output element */
