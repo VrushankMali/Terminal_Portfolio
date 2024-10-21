@@ -116,6 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
 
     function processCommand(command) {
+        command = command.toLowerCase();
         const paragraph = document.createElement("p");
         paragraph.className = "prompt"; // Add the prompt class
         paragraph.textContent = `vrushankmali@portfolio:~$ ${command}`; // Update the prompt text
