@@ -137,6 +137,7 @@ const help = [
     '<span class="command glow">socials</span>           <span class="description yellow">My social networks</span><br>',
     '<span class="command glow">help</span>              <span class="description yellow">You obviously already know what this does</span><br>',
     '<span class="command glow">clear</span>             <span class="description yellow">Clear terminal</span><br>',
+    '<span class="command glow">exit</span>              <span class="description yellow">Closes the tab</span><br>',
     "<br>"
 ];
 

@@ -136,6 +136,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     <br>
                 `;
                 output.innerHTML = welcomeMessage;
+            } else if (command === "exit") {
+                window.close();
             } else {
                 const error = document.createElement("p");
                 error.classList.add("error-message", "shake"); // Add the error-message class
