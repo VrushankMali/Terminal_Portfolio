@@ -72,6 +72,12 @@ const projects = [
     "<br>"
 ];
 
+const publication = [
+    "<br>",
+    "Coming soon!... Just making sure I link the right URL.<br>",
+    "<br>"
+];
+
 const achievements = [
     "<br>",
     "<span class='terminal-input'>•	Placed 3rd out of 15 undergraduate senior projects at ACM Conference in Gatlinburg, TN</span><br>",
@@ -124,6 +130,7 @@ const help = [
     '<span class="command glow">education</span>         <span class="description yellow">Am I literate?</span><br>',
     '<span class="command glow">skills</span>            <span class="description yellow">How literate am I?</span><br>',
     '<span class="command glow">projects</span>          <span class="description yellow">My coding projects</span><br>',
+    '<span class="command glow">publication</span>       <span class="description yellow">Yes, I have a paper published as well</span><br>',
     '<span class="command glow">achievements</span>      <span class="description yellow">Let me show you my gains</span><br>',
     '<span class="command glow">experience</span>        <span class="description yellow">My work history</span><br>',
     '<span class="command glow">contact</span>           <span class="description yellow">Please don\'t contact me</span><br>',
@@ -139,6 +146,7 @@ const commands = {
     education,
     skills,
     projects,
+    publication,
     achievements,
     experience,
     contact,
