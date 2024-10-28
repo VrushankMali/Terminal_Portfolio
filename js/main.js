@@ -137,7 +137,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 `;
                 output.innerHTML = welcomeMessage;
             } else if (command === "exit") {
+                // Try closing the tab first
                 window.close();
+                
+                // If the close doesn't work, redirect to Google
+                setTimeout(() => {
+                    window.location.href = "https://www.google.com";
+                }, 100);
             } else {
                 const error = document.createElement("p");
                 error.classList.add("error-message", "shake"); // Add the error-message class
