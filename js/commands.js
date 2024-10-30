@@ -5,6 +5,7 @@ var github = "https://github.com/VrushankMali/";
 var gbs = "https://github.com/shaaperr/GardenersBestFriend";
 var musicworld = "https://github.com/bildgaul/Music-World";
 var memorygame = "https://github.com/TMan-24/CSCI352_Memory_Game_Project";
+var paper = "https://strategy.asee.org/nsf-reu-site-swarms-of-unmanned-aircraft-systems-in-the-age-of-ai-machine-learning";
 
 //Formatting the phone number for display
 //Formats to (731) 444-0892
@@ -74,7 +75,7 @@ const projects = [
 
 const publication = [
     "<br>",
-    "Coming soon!... Just making sure I link the right URL.<br>",
+    'Publication       <a class="link" href="' + paper + '" target="_blank">NSF REU Site: Swarms of Unmanned Aircraft Systems in the Age of AI/Machine Learning</a><br>',
     "<br>"
 ];
 
