@@ -223,7 +223,7 @@ html, body {
         0 0 5px #a60000,  /* First shadow layer */
         0 0 10px #a60000, /* Second shadow layer for increased glow */
         0 0 15px #a60000, /* Third shadow layer for even more glow */
-        0 0 20px rgba(166, 0, 0, 0.5); /* Softer outer glow */
+        0 0 20px #a6000080; /* Softer outer glow */
 }
 
 @keyframes fall {
@@ -285,4 +285,25 @@ html, body {
 
 .dot:nth-child(3) {
     animation-delay: 0.4s; /* Delay for third dot */
+}
+
+.suggestion-item {
+    color:#ffd700;
+    text-shadow: 
+        0 0 5px #ffd700,  /* First shadow layer */
+        0 0 10px #ffd700, /* Second shadow layer for increased glow */
+        0 0 15px #ffd700, /* Third shadow layer for even more glow */
+        0 0 20px rgba(255, 217, 0, 0.499); /* Softer outer glow */
+    cursor: pointer; /* Change cursor to pointer */
+    white-space: nowrap; /* Prevent text wrapping */
+    transition: color 0.3s, text-shadow 0.3s; /* Smooth transition for color and shadow */
+}
+
+.suggestion-item:hover {
+    color: #00ffee; /* Command text color */
+    text-shadow: 
+        0 0 5px #00ffee,  /* First shadow layer */
+        0 0 10px #00ffee, /* Second shadow layer for increased glow */
+        0 0 15px #00ffee, /* Third shadow layer for even more glow */
+        0 0 20px rgba(0, 255, 255, 0.5); /* Optional: Use rgba for a softer outer glow */
 }

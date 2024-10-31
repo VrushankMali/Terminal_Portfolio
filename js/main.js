@@ -111,9 +111,78 @@ document.addEventListener("DOMContentLoaded", function () {
                 terminalInput.value = ""; 
                 terminalInput.focus(); // Focus the input
             }
+        } else if (event.key === "Tab") {
+            event.preventDefault();
+            autocompleteCommand(terminalInput.value);
         }
     });    
+
+    function autocompleteCommand(input) {
+        const currentInput = input.trim(); // Get the trimmed input from the parameter
+        if (currentInput) {
+            // Use Object.keys() to filter through the command keys
+            const matchingCommands = Object.keys(commands).filter(cmd => cmd.startsWith(currentInput));
     
+            if (matchingCommands.length === 1) {
+                // If there's an exact match, complete the command
+                terminalInput.value = matchingCommands[0];
+            } else if (matchingCommands.length > 1) {
+                // If multiple matches, display the options in the terminal
+                showCommandSuggestions(matchingCommands);
+            }
+        }
+    }        
+
+    function showCommandSuggestions(suggestions) {
+        const suggestionDiv = document.getElementById("suggestionsContainer");
+        suggestionDiv.innerHTML = ''; // Clear previous suggestions
+    
+        // Populate suggestion items
+        suggestions.forEach(suggestion => {
+            const suggestionItem = document.createElement("p");
+            suggestionItem.textContent = suggestion; // This will now be the command name
+            suggestionItem.classList.add("suggestion-item");
+    
+            // Optional: Add a click event to select a suggestion when clicked
+            suggestionItem.addEventListener('click', () => {
+                terminalInput.value = suggestion; // Set the input value to the clicked suggestion
+                suggestionDiv.innerHTML = ''; // Clear suggestions after selection
+            });
+    
+            suggestionDiv.appendChild(suggestionItem);
+        });
+    
+        // Show or hide the suggestions based on whether there are suggestions
+        suggestionDiv.style.display = suggestions.length > 0 ? 'block' : 'none'; // Show or hide
+    }    
+
+    // Another way for tab command
+    /*function showCommandSuggestions(suggestions) {
+        const suggestionDiv = document.createElement("div");
+        suggestionDiv.classList.add("suggestions");
+    
+        // Populate suggestion items
+        suggestions.forEach(suggestion => {
+            const suggestionItem = document.createElement("p");
+            suggestionItem.textContent = suggestion; // This will now be the command name
+            suggestionItem.classList.add("suggestion-item");
+    
+            // Optional: Add a click event to select a suggestion when clicked
+            suggestionItem.addEventListener('click', () => {
+                terminalInput.value = suggestion; // Set the input value to the clicked suggestion
+                suggestionDiv.remove(); // Remove the suggestion box
+            });
+    
+            suggestionDiv.appendChild(suggestionItem);
+        });
+    
+        output.appendChild(suggestionDiv);
+    
+        // Remove suggestions after a short delay
+        setTimeout(() => {
+            suggestionDiv.remove();
+        }, 3000);
+    }*/    
 
     function processCommand(command) {
         command = command.toLowerCase();
@@ -121,6 +190,9 @@ document.addEventListener("DOMContentLoaded", function () {
         paragraph.className = "prompt"; // Add the prompt class
         paragraph.textContent = `vrushankmali@portfolio:~$ ${command}`; // Update the prompt text
         output.appendChild(paragraph);
+
+        // Clear suggestions immediately after command input
+        showCommandSuggestions([]); // Clear suggestions here
 
         // Delay processing to allow the loading animation to be visible
         setTimeout(() => {
