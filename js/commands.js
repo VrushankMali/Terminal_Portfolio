@@ -88,6 +88,14 @@ const achievements = [
 
 const experience = [
     "<br>",
+    "University of Georgia; Griffin, GA | <span class='highlight'>IT Client Support Assistant</span>; January 2026 – Present<br>",
+    //"•	Provide on-site <span class='highlight'>Tier 2 support</span> to students, staff and faculty in professional manner<br>",
+    //"•	<span class='highlight'>Upgrade switches</span>, transferring code information and making appropriate changes<br>",
+    //"•	<span class='highlight'>Provision access points</span> to improve Wi-Fi reception<br>",
+    //"•	<span class='highlight'>Troubleshoot remote and on-site</span> Wi-Fi connectivity, access points and switches<br>",
+    //"•	Track user requests, issues, and progress via <span class='highlight'>TeamDynamix ticketing system</span><br>",
+    "<br>",
+    "<br>",
     "UT Martin Information Technology Services; Martin, TN | <span class='highlight'>Network Technician</span>; July 2023 – May 2024<br>",
     "•	Provide on-site <span class='highlight'>Tier 2 support</span> to students, staff and faculty in professional manner<br>",
     "•	<span class='highlight'>Upgrade switches</span>, transferring code information and making appropriate changes<br>",
