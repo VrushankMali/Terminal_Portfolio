@@ -5,7 +5,7 @@ var github = "https://github.com/VrushankMali/";
 var gbs = "https://github.com/shaaperr/GardenersBestFriend";
 var musicworld = "https://github.com/bildgaul/Music-World";
 var memorygame = "https://github.com/TMan-24/CSCI352_Memory_Game_Project";
-var paper = "https://strategy.asee.org/nsf-reu-site-swarms-of-unmanned-aircraft-systems-in-the-age-of-ai-machine-learning";
+var paper = "https://peer.asee.org/nsf-reu-site-swarms-of-unmanned-aircraft-systems-in-the-age-of-ai-machine-learning";
 
 //Formatting the phone number for display
 //Formats to (731) 444-0892
