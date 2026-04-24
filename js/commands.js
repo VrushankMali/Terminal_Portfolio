@@ -101,7 +101,7 @@ const experience = [
     "<br>",
     "UT Martin Information Technology Services; Martin, TN | <span class='highlight'>Student Assistant</span>; July 2022 – July 2023<br>",
     "•	Provided Tier 1 <span class='highlight'>Help Desk support</span> to students, staff and faculty<br>",
-    "<span class='highlight'>•	Troubleshot issues with Ellucian Banner, Canvas, computer software, printers via BeyondTrust remote support</span><br>",
+    "•	<span class='highlight'>Troubleshot issues with Ellucian Banner, Canvas, computer software, printers via BeyondTrust remote support</span><br>",
     "•	Tracked user requests, issues, and progress via TeamDynamix ticketing system <br>",
     "•	<span class='highlight'>Registered devices</span> to ensure connection to university network<br>",
     "<br>",
