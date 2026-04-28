@@ -86,6 +86,19 @@ const achievements = [
     "<br>"
 ];
 
+const credentials = [
+    "<br>",
+    "<span class='highlight'>Certifications</span><br>",
+    "•	NSLS Leadership Certificate (Leadership & Professional Development)<br>",
+    "<br>",
+    "<span class='highlight'>Training</span><br>",
+    "•	ITIL 4 Foundation<br>",
+    "•	Cybersecurity Awareness Training<br>",
+    "•	Web Accessibility Training<br>",
+    "•	WordPress Training<br>",
+    "<br>"
+];
+
 const experience = [
     "<br>",
     "University of Georgia; Griffin, GA | <span class='highlight'>IT Client Support Assistant</span>; January 2026 - Present<br>",
@@ -142,6 +155,7 @@ const help = [
     '<span class="command glow">projects</span>          <span class="description yellow">My coding projects</span><br>',
     '<span class="command glow">publication</span>       <span class="description yellow">Yes, I have a paper published as well</span><br>',
     '<span class="command glow">achievements</span>      <span class="description yellow">Let me show you my gains</span><br>',
+    '<span class="command glow">credentials</span>       <span class="description yellow">Required, apparently</span><br>',
     '<span class="command glow">experience</span>        <span class="description yellow">My work history</span><br>',
     '<span class="command glow">contact</span>           <span class="description yellow">Please don\'t contact me</span><br>',
     '<span class="command glow">socials</span>           <span class="description yellow">My social networks</span><br>',
@@ -159,6 +173,7 @@ const commands = {
     projects,
     publication,
     achievements,
+    credentials,
     experience,
     contact,
     socials,
