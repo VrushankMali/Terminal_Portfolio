@@ -103,8 +103,17 @@ const credentials = [
 
 const experience = [
     "<br>",
-    "University of Georgia; Griffin, GA | <span class='highlight'>IT Client Support Assistant</span>; January 2026 - Present<br>",
+    "University of Georgia; Griffin, GA | <span class='highlight'>IT Support Professional I</span>; January 2026 – Present<br>",
+    "•	<span class='highlight'>Deploy, configure, and manage IT endpoints</span> across campus, including Windows PCs, laptops, and MacBooks through workstation setup, imaging/reimaging, <span class='highlight'>Microsoft Intune</span>, software deployment, updates, and network registration.<br>",
+    "•	<span class='highlight'>Diagnose and troubleshoot hardware, software, and network issues</span>, installing and maintaining peripherals, printers, and network equipment while providing on-site and remote technical support through <span class='highlight'>ScreenConnect Live Support</span>.<br>",
+    "•	Provide <span class='highlight'>IT support for laboratory and research environments</span> across campus, including specialized lab equipment and network infrastructure.<br>",
+    "•	<span class='highlight'>Troubleshoot network connectivity</span> and support network infrastructure through device registration with <span class='highlight'>Proteus</span> and configuration of <span class='highlight'>FortiSwitch Ports</span> and settings through <span class='highlight'>FortiGate</span>.<br>",
+    "•	<span class='highlight'>Configure, maintain, and support audiovideo and classroom technology, including DVX, DxLink, AMX control panels, Zoom Rooms systems, projectors, displays, speakers, cameras, and microphones</span>.<br>",
+    "•	Contribute to campus technology projects, including a <span class='highlight'>campus-wide Microsoft Teams Phone migration</span> and <span class='highlight'>computer lab lifecycle modernization</span> through the replacement of traditional desktop, monitor, and arm-stand configurations with all-in-one displays.<br>",
+    "•	Support campus web and communication technologies through <span class='highlight'>WordPress</span> website support, <span class='highlight'>web accessibility</span>, Microsoft Teams, and <span class='highlight'>listserv membership management</span>.<br>",
+    "•	Support specialized campus services, including the <span class='highlight'>technology loaner program</span> for laptops, iPads, and MacBooks, <span class='highlight'>GrifPrint and Mobility Print</span>, <span class='highlight'>Duo</span>, QuestionPro, classroom reservations, and <span class='highlight'>Print Shop operations</span>; provide <span class='highlight'>audiovisual support for campus-wide events</span>.<br>",
     "<br>",
+
     "<br>",
     "UT Martin Information Technology Services; Martin, TN | <span class='highlight'>Network Technician</span>; July 2023 – May 2024<br>",
     "•	Provide on-site <span class='highlight'>Tier 2 support</span> to students, staff and faculty in professional manner<br>",
