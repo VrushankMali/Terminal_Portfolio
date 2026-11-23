@@ -113,7 +113,6 @@ const experience = [
     "•	Support campus web and communication technologies through <span class='highlight'>WordPress</span> website support, <span class='highlight'>web accessibility</span>, Microsoft Teams, and <span class='highlight'>listserv membership management</span>.<br>",
     "•	Support specialized campus services, including the <span class='highlight'>technology loaner program</span> for laptops, iPads, and MacBooks, <span class='highlight'>GrifPrint and Mobility Print</span>, <span class='highlight'>Duo</span>, QuestionPro, classroom reservations, and <span class='highlight'>Print Shop operations</span>; provide <span class='highlight'>audiovisual support for campus-wide events</span>.<br>",
     "<br>",
-
     "<br>",
     "UT Martin Information Technology Services; Martin, TN | <span class='highlight'>Network Technician</span>; July 2023 – May 2024<br>",
     "•	Provide on-site <span class='highlight'>Tier 2 support</span> to students, staff and faculty in professional manner<br>",
