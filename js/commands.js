@@ -6,6 +6,7 @@ var gbs = "https://github.com/shaaperr/GardenersBestFriend";
 var musicworld = "https://github.com/bildgaul/Music-World";
 var memorygame = "https://github.com/TMan-24/CSCI352_Memory_Game_Project";
 var paper = "https://peer.asee.org/nsf-reu-site-swarms-of-unmanned-aircraft-systems-in-the-age-of-ai-machine-learning";
+var AI_Certi = "https://courses.digitaleducationcouncil.com/certificates/kwrayuw324";
 
 //Formatting the phone number for display
 //Formats to (731) 444-0892
@@ -91,7 +92,7 @@ const credentials = [
     "<span class='highlight'>Certifications</span><br>",
     "•	Web Accessibility Training<br>",
     "•	WordPress Training<br>",
-    "•	DEC x University of Georgia AI Literacy for All<br>",
+    '•	<a class="link" herf="' + AI_Certi + '" target="_blank">DEC x University of Georgia AI Literacy for All</a><br>',
     "•	NSLS Leadership Certificate (Leadership & Professional Development)<br>",
     "<br>",
     "<span class='highlight'>Training</span><br>",
