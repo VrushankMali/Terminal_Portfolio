@@ -89,13 +89,14 @@ const achievements = [
 const credentials = [
     "<br>",
     "<span class='highlight'>Certifications</span><br>",
+    "•	Web Accessibility Training<br>",
+    "•	WordPress Training<br>",
+    "•	DEC x University of Georgia AI Literacy for All<br>",
     "•	NSLS Leadership Certificate (Leadership & Professional Development)<br>",
     "<br>",
     "<span class='highlight'>Training</span><br>",
     "•	ITIL 4 Foundation<br>",
     "•	Cybersecurity Awareness Training<br>",
-    "•	Web Accessibility Training<br>",
-    "•	WordPress Training<br>",
     "<br>"
 ];
 
